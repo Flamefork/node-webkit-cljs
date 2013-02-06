@@ -5,7 +5,7 @@ Provides idiomatic approach for most use cases.
 
 **Status**: many APIs (i.e. Shell, Clipboard, File dialogs) are missing and planned for next releases. Contribution is highly appreciated.
 
-Add `[node-webkit-cljs "0.1.1"]` to lein `:dependencies`.
+Add `[node-webkit-cljs "0.1.2"]` to lein `:dependencies`.
 
 ``` clojure
 (ns myapp.core
