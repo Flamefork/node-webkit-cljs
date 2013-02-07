@@ -3028,11 +3028,9 @@ net.brehaut.ClojureTools = (function (SH) {
     build_tree: build_tree
   };
 })(SyntaxHighlighter);
-</script><title>node-webkit-cljs -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name">node-webkit-cljs</h1><h2 class="project-version">0.1.0-SNAPSHOT</h2><br /><p>Native UI API wrapper for node-webkit</p>
-</div><div class="dependencies"><h3>dependencies</h3><table><tr><td class="dep-name">org.clojure/clojure</td><td class="dotted"><hr /></td><td class="dep-version">1.4.0</td></tr></table></div></td><td class="codes" style="text-align: center; vertical-align: middle;color: #666;padding-right:20px"><br /><br /><br />(this space intentionally left almost blank)</td></tr><tr><td class="docs"><div class="toc"><a name="toc"><h3>namespaces</h3></a><ul><li><a href="#node-webkit-cljs.core">node-webkit-cljs.core</a></li></ul></div></td><td class="codes">&nbsp;</td></tr><tr><td class="docs"><div class="docs-header"><a class="anchor" href="#node-webkit-cljs.core" name="node-webkit-cljs.core"><h1 class="project-name">node-webkit-cljs.core</h1><a class="toc-link" href="#toc">toc</a></a></div></td><td class="codes" /></tr><tr><td class="docs"><p>This is only a thin wrapper for node-webkit Native UI API. Generally, node-webkit's
-    <a href="https://github.com/rogerwang/node-webkit/wiki/Native-UI-API-Manual">Native UI API Manual</a>
-    is a good place to start learning how to use this APIs.</p>
-</td><td class="codes"><pre class="brush: clojure">(ns node-webkit-cljs.core)</pre></td></tr><tr><td class="docs">
+</script><title>node-webkit-cljs -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name">node-webkit-cljs</h1><h2 class="project-version">0.1.4</h2><br /><p>Native UI API wrapper for node-webkit</p>
+</div></td><td class="codes" style="text-align: center; vertical-align: middle;color: #666;padding-right:20px"><br /><br /><br />(this space intentionally left almost blank)</td></tr><tr><td class="docs"><div class="toc"><a name="toc"><h3>namespaces</h3></a><ul><li><a href="#node-webkit.core">node-webkit.core</a></li></ul></div></td><td class="codes">&nbsp;</td></tr><tr><td class="docs"><div class="docs-header"><a class="anchor" href="#node-webkit.core" name="node-webkit.core"><h1 class="project-name">node-webkit.core</h1><a class="toc-link" href="#toc">toc</a></a></div></td><td class="codes" /></tr><tr><td class="docs">
+</td><td class="codes"><pre class="brush: clojure">(ns node-webkit.core)</pre></td></tr><tr><td class="docs">
 </td><td class="codes"><pre class="brush: clojure">(def ^:private gui (js/require &quot;nw.gui&quot;))</pre></td></tr><tr><td class="docs"><h2>Window</h2>
 </td><td class="codes"></td></tr><tr><td class="docs"><p>If <code>window-object</code> is not specifed, then return current window's Window object,
   otherwise return <code>window-object</code>s Window object.</p>
