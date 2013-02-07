@@ -5,15 +5,15 @@ Provides idiomatic approach for most use cases.
 
 **Status**: many APIs (i.e. Shell, Clipboard, File dialogs) are missing and planned for next releases. Contribution is highly appreciated.
 
-Add `[node-webkit-cljs "0.1.2"]` to lein `:dependencies`.
+Add `[node-webkit-cljs "0.1.3"]` to lein `:dependencies`.
 
 ``` clojure
 (ns myapp.core
-  :require [node-webkit-cljs :as nw])
+  :require [node-webkit.core :as nw])
 
 (nw/tray! {:title "My App"
            :icon "img/icon.png"
-           :menu (nw/menu [{:label "Open..." :click #(.show (nw/window))}
+           :menu (nw/menu [{:label "Show..." :click #(.show (nw/window))}
                            {:type "separator"}
                            {:label "Quit" :click nw/quit}])})
 

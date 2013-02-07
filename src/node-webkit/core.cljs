@@ -1,8 +1,4 @@
-;; This is only a thin wrapper for node-webkit Native UI API. Generally, node-webkit's
-;; [Native UI API Manual](https://github.com/rogerwang/node-webkit/wiki/Native-UI-API-Manual)
-;; is a good place to start learning how to use this APIs.
-
-(ns node-webkit-cljs.core)
+(ns node-webkit.core)
 
 (def ^:private gui (js/require "nw.gui"))
 

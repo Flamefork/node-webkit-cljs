@@ -1,0 +1,9 @@
+{
+  "main": "index.html",
+  "name": "example",
+  "version": "0.1-dev",
+  "window": {
+    "toolbar": true,
+    "resizable": true
+  }
+}

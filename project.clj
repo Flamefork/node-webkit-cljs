@@ -1,4 +1,4 @@
-(defproject node-webkit-cljs "0.1.2"
+(defproject nodewebkit "0.1.3"
   :description "Native UI API wrapper for node-webkit"
   :url "http://github.com/Flamefork/node-webkit-cljs"
   :license {:name "Eclipse Public License"
