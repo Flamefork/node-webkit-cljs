@@ -5,7 +5,7 @@ Provides idiomatic approach for most use cases.
 
 **Status**: many APIs (i.e. Shell, Clipboard, File dialogs) are missing and planned for next releases. Contribution is highly appreciated.
 
-Add `[node-webkit-cljs "0.1.3"]` to lein `:dependencies`.
+Add `[node-webkit-cljs "0.1.4"]` to lein `:dependencies`.
 
 ``` clojure
 (ns myapp.core
@@ -20,15 +20,22 @@ Add `[node-webkit-cljs "0.1.3"]` to lein `:dependencies`.
 (.on (nw/window) "close" #(.hide (nw/window)))
 
 ; and so on
-
 ```
 
+Note that namespace (`node-webkit`) differs from project name (`node-webkit-cljs`).
+
+See [example project](https://github.com/Flamefork/node-webkit-cljs/tree/master/example)
 
 ## Documentation
 
 ### [API documentation](http://flamefork.github.com/node-webkit-cljs/)
 
 [Official node-webkit Native UI API documentation](https://github.com/rogerwang/node-webkit/wiki/Native-UI-API-Manual).
+
+## Roadmap
+
+- Tests
+- Support all other APIs
 
 ## License
 

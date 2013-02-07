@@ -3,7 +3,7 @@
   :min-lein-version "2.0.0"
 
   :dependencies [[jayq "2.0.0"] ; just for example
-                 [node-webkit-cljs "0.1.3"]]
+                 [node-webkit-cljs "0.1.4"]]
 
   :plugins [[lein-cljsbuild "0.3.0"]]
   
